@@ -274,14 +274,12 @@ body::-webkit-scrollbar-thumb:hover {
   box-shadow: 0 0 10px rgba(0,255,224,0.6);
 }
 
-/* Firefox global scrollbar */
 html, body {
   scrollbar-width: thin;
   scrollbar-color: #00ffe0 transparent;
 }
 
 /* Artist Pagination */
-
 #artistPagination {
   margin-top: 12px;
   text-align: center;
