@@ -1,13 +1,13 @@
 /* General page styling */
 body {
-  background: #0e0e12;                /* darker cyberpunk base */
+  background: #0e0e12;               
   font-family: sans-serif;
   text-align: center;
   margin: 0;
   padding: 20px;
   color: #e0e0e0;
-  overflow-x: hidden;                 /* prevent horizontal scroll */
-  overflow-y: scroll;                 /* always reserve vertical scrollbar */
+  overflow-x: hidden;                
+  overflow-y: scroll;                
 }
 
 /* Deck container */
@@ -15,8 +15,8 @@ body {
   position: relative;
   display: inline-block;
   width: 100%;
-  max-width: 600px;                   /* responsive, capped at 600px */
-  aspect-ratio: 1 / 1;                /* keep square */
+  max-width: 600px;                   
+  aspect-ratio: 1 / 1;              
   margin: 0 auto;
 }
 
@@ -149,7 +149,7 @@ body {
 #controls {
   margin-top: 30px;
   text-align: center;
-  z-index: 10;                        /* ensure above vinyl layers */
+  z-index: 10;                        
 }
 
 button {
